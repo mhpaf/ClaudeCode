@@ -1,11 +1,13 @@
 variable "subscription_id" {
   description = "Deine Azure Subscription ID"
   type        = string
+  default     = "" 
 }
 
 variable "resource_group_name" {
   description = "Name der existierenden Resource Group"
   type        = string
+  default     = "" 
 }
 
 variable "location" {
